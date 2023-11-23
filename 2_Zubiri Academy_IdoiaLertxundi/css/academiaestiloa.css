@@ -1,0 +1,232 @@
+@font-face {
+    src: url("../fonts/academy.ttf");
+    font-family: akademia;
+}
+* {
+    font-family: akademia;
+}
+body {
+    background-color: skyblue;
+    padding: 0px 10px 30px 10px;
+    margin: 5px 5px;
+    background-image: linear-gradient(to bottom, #fcfdff, #4095ff);
+}
+a:link {
+    color: #505050;
+    text-decoration: none;
+}
+a:active {
+    color: #505050;
+    text-decoration: none;
+}
+a:visited {
+    color: #505050;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
+#topnav {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-weight: 200;
+    color: darkblue;
+    text-align: right;
+    font-size: 20px;
+    padding: 5px 35px 5px 10px;
+}
+#bottom {
+    display: flex;
+    text-align: left;
+    padding-top: 20px;
+}
+#logo {
+    width: 30%;
+    text-align: left;
+    background-image: url(images/logo.png);
+    background-size: 50px 52px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bluegroup {
+    width: 70%;
+    text-align: right;
+    background-color: #72b8f3;
+    border-radius: 30px;
+    height: 22px;
+    padding: 5px 0px;
+    border: 1px solid pink;
+    text-align: right;
+}
+.menuitem {
+    color: mediumblue;
+    font-size: 2en;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+.container {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.banner {
+    border-radius: 10px;
+}
+#lefticons {
+    width: 30%;
+    text-align: left;
+    align-items: left;
+    align-content: left;
+}
+#righticon {
+    width: 70%;
+    text-align: right;
+    padding-right: 20px;
+}
+.iconitem {
+    padding: 0px 4px;
+}
+testua {
+    width: 40%;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: justify;
+}
+#login {
+    display: inline-flex;
+    padding: 0px 50px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+#login input {
+    width: 140px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+}
+#login button {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    padding-bottom: 2px;
+}
+.testuabutton {
+    color: #000;
+    background-color: white;
+    width: 135px;
+    height: 20px;
+    border: 1px solid black;
+    padding-bottom: 4px;
+    margin-right: 30px;
+    padding-top: 1px;
+}
+section#intro {
+    display: flex;
+    align-items: right;
+    padding-bottom: 1.0em;
+    padding-right: 0px;
+}
+h1 {
+    font-size: xx-large;
+}
+.testua {
+    font-size: 1.3em;
+    text-align: left;
+}
+#sektion_testua {
+    text-align: center;
+    width: 50%;
+    padding-right: 110px;
+}
+#footer {
+    text-align: center;
+}
+.social {
+    width: 40px;
+}
+
+/************MEDIA****************/
+
+@media (max-width:900px) {
+    #topnav {
+        display: flex;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        flex-direction: column;
+    }
+    #logo {
+        width: 50px;
+        height: 50px;
+        background-image: url(../images/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 7px;
+    }
+    #menubar,
+    #login,
+    .bluegroup {
+        display: flex;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        flex-direction: column;
+    }
+    #container,
+    #intro,
+    #sektion_testua,
+    #bottom,
+    #footer,
+    #righticon,
+    .banner {
+        display: flex;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        flex-direction: column;
+    }
+    #sektion_testua {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+    }
+    #righticon {
+        width: 100%;
+        text-align: center;
+    }
+    #lefticon {
+        width: 100%;
+        text-align: center;
+    }
+    .testuabutton {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        margin-bottom: 7px;
+        flex-direction: column;
+    }
+    .container {
+        padding-top: 0px;
+    }
+    .iconitem {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .social {
+        width: 50px;
+    }
+    .banner {
+        width: 500px;
+        border-radius: 10px;
+    }
+}
+
+/************MEDIA****************/
