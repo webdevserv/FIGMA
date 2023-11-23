@@ -1,0 +1,234 @@
+body {
+    background-color: #FFF;
+    padding: 0;
+    margin: 5px 5px;
+}
+.izenburua1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+section {
+    border-radius: 30px;
+}
+#topnav {
+    background-color: #D8AEFF;
+    height: 50px;
+    font-weight: 200;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    padding-bottom: 7px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    font-size: 1.5en;
+    text-decoration: none;
+}
+.container {
+    padding-top: 0px;
+}
+#content {
+    background-color: #FFF;
+    height: 100%;
+}
+testua {
+    width: 40%;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: justify;
+}
+body {
+    font-family: Cambria, serif;
+}
+a {
+    text-decoration: none;
+}
+#topnav {
+    width: 100%;
+    display: flex;
+}
+#menubar {
+    width: 100%;
+    padding-top: 7px;
+    align-items: center;
+    align-content: center;
+}
+.menuitem {
+    padding: 5px 60px;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#login {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#login button {
+    color: #636262;
+    background-color: rgb(93, 209, 255);
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+}
+#login a {
+    text-decoration: none;
+    font-size: 1.2em, font-color: black;
+}
+header {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    padding-top: 5px;
+    height: 7v;
+}
+header div.banner {
+    text-align: left;
+}
+header div {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+}
+.moto {
+    color: grey;
+}
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+}
+main div {
+    padding: 10px 30px;
+    width: 33.33%;
+}
+img.banner {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.three_gray {
+    padding-top: 5px;
+    color: #636262;
+    background-color: #e9e8e8;
+}
+.three_white {
+    padding-top: 5px;
+    color: #636262;
+    background-color: #fff;
+}
+h1 {
+    font-size: xx-large;
+}
+.bottom {
+    text-align: justify-all;
+}
+section#intro {
+    display: flex;
+    align-items: center;
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+}
+#sektion_testua {
+    font-size: 1.3em;
+    text-align: center;
+    width: 50%;
+}
+.ikon {
+    /*border-radius: 10px;*/
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 100px;
+}
+.ikonoa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.footerklas {
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+.azkena {
+    padding: 20px;
+}
+
+/************MEDIA****************/
+@media (max-width:900px) {
+    section {
+        width: 100%;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+    }
+    #topnav {
+        display: flex;
+        height: auto;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        flex-direction: column;
+    }
+    #logo {
+        width: 50px;
+        height: 50px;
+        background-image: url(../images/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 7px;
+    }
+    nav#menubar,
+    #login,
+    main,
+    #intro,
+    .footerklas {
+        display: flex;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        flex-direction: column;
+    }
+    #container {
+        display: flex;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        flex-direction: column;
+    }
+}
+/************MEDIA****************/
