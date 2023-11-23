@@ -1,0 +1,58 @@
+body {
+    background-color: #66ccff;
+    margin: 0px 90px 0px 90px;
+    text-align: center;
+    font-family: Cambria, serif;
+}
+hr {
+    border: 1px solid #FFF;
+    width: 100%;
+    padding-left: 10px;
+}
+.eachsection {
+    width: 100%;
+    text-align: center;
+}
+.izenburua1 {
+    font-family: 'Comic Neue', cursive, 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:xxx-large;
+    padding: 5px 0px 10px 0px;
+}
+.izenburua2 {
+    font-family: 'Comic Neue', cursive, 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 0px 9px 15px 40px;
+    width: auto;
+}
+section {
+    border: 3px solid #65a094;
+    border-radius: 30px;
+    margin: 0px 0px 20px 0px;
+    /*margin: auto; // zentratzeko automatikoki*/
+    padding: 20px 50px 40px 20px;
+}
+.scene {
+    width: 474px;
+    height: 250px;
+}
+.edukia {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    /*justify-content:space-evenly;*/
+    padding: 0px 0px 15px 50px;
+    /*OK*/
+}
+.irudia {
+    padding-top: 20px;
+    padding-left: 60px;
+    /* the gap */
+}
+.testua {
+    font-family: 'Comic Neue', cursive, 'Roboto', sans-serif;
+    text-align: justify;
+    font-size:medium;
+}
